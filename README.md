@@ -91,6 +91,6 @@ It's also available for a reversed layout when you add both classes:
 
 ## License
 
-Open sourced under the [MIT license](LICENSE.md).
+Open sourced under the [GPL2 License](LICENSE.md).
 
 <3
