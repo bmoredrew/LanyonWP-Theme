@@ -8,8 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
     <title>
-      <?php wp_title( '|', true, 'right' ); ?>
-      <?php bloginfo( 'name' ); ?>
+      <?php 
+        wp_title( '|', true, 'right' );
+        bloginfo( 'name' ); 
+      ?>
     </title>
 
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
