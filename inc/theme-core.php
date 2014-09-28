@@ -44,19 +44,18 @@ class LanyonWP_Functions
 		$defaults = array(
 			'before_widget' => '<div class="widget %2$s">',
 			'after_widget' => '</div>',
-		    'before_title' => '<h1 class="widget-title">',
-		    'after_title' => '</h1>'
+		    'before_title' => '<h3 class="widget-title">',
+		    'after_title' => '</h3>'
 		);
 		 
 		$sidebars = array(
 			array(
-		        'id' => 'sidebar',
+		        'id' => 'lanyonwp-sidebar',
 		        'name' => __( 'Sidebar' ),
 		        'description' => __( 'Primary Widget Area under Menu in Sidebar' ),
 		    ),
 		);
 		 
-		// register all sidebars with defaults
 		foreach ( $sidebars as $sidebar )
 		{
 		    register_sidebar( array_merge( $defaults, $sidebar ) );

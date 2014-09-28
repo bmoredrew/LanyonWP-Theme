@@ -13,3 +13,7 @@ Text Domain: lanyonwp
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+/* Use this stylesheet to add any css outside of Lanyon core css */
+
+h3.widget-title { color: #fff; margin: 20px; }

@@ -20,6 +20,14 @@
     </ul>
   </nav>
 
+  <div class="sidebar-widgets">
+
+    <?php if ( is_active_sidebar( 'lanyonwp-sidebar' ) ) : ?>
+        <?php dynamic_sidebar( 'lanyonwp-sidebar' ); ?>
+    <?php endif; ?>
+
+  </div>
+
   <div class="sidebar-item">
     <p>
       &copy; <?php echo date("Y"); ?>. All rights reserved.
