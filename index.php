@@ -5,18 +5,8 @@
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="/" title="Home">
-              <?php bloginfo( 'name' ); ?>
-            </a>
-            <small>
-              <?php bloginfo( 'description' ); ?>
-            </small>
-          </h3>
-        </div>
-      </div>
+
+      <?php get_template_part('masthead'); ?>
 
       <div class="container content">
 
