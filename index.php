@@ -27,6 +27,16 @@
           
           </div>
 
+          <hr>
+
+          <?php 
+              if ( comments_open() ) :
+
+                comments_template(); 
+              
+              endif; 
+          ?>
+
           <div class="pagination">
             <?php previous_post_link('%link', 'Older'); ?>
             <?php next_post_link('%link', 'Newer'); ?>
